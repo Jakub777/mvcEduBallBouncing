@@ -16,6 +16,14 @@ qt_add_qml_module(appmvcEduBallDrop
     URI mvcEduBallDrop
     QML_FILES
         Main.qml
+
+        model/BallModel.qml
+        model/WorldModel.qml
+        model/BoxModel.qml
+
+        view/BallView.qml
+        view/BoxView.qml
+        view/WorldView.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
